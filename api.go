@@ -46,7 +46,6 @@ func init() {
 		log.Fatal(err)
 	}
 	storeFileName = dirname + "/.myplan/store"
-	fmt.Println("file name", storeFileName)
 	_, err = os.Stat(storeFileName)
 	if os.IsNotExist(err) {
 		os.Create(storeFileName)
