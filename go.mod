@@ -1,4 +1,4 @@
-module bionichound.com/myplan
+module github.com/bionichound/myplan
 
 go 1.17
 
